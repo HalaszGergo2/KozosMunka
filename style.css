@@ -19,12 +19,18 @@ img{
 }
 main{
 display: grid;
-grid-template-areas: "";
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: 
+"h h h"
+"a a n"
+"a a n"
+"f f f";
 }
 
 
 header{
     grid-area: h;
+    border-bottom: 1px solid black;
 }
 article{
     grid-area: a;
@@ -33,6 +39,7 @@ article{
 
 nav{
     grid-area: n;
+    border: 1px solid black;
 }
 
 nav ul{
