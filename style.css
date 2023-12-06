@@ -36,6 +36,7 @@ header{
 article{
     grid-area: a;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 
@@ -68,5 +69,21 @@ li a:hover {
 footer{
     grid-area: f;
     text-align: center;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
+    border-radius: 5px;
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+    main{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "h"
+        "n"
+        "a"
+        "a"
+        "f";
+    }
+  }
