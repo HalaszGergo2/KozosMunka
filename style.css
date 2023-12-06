@@ -55,3 +55,18 @@ footer{
     text-align: center;
     border-bottom: 1px solid black;
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+    main{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "h"
+        "n"
+        "a"
+        "a"
+        "f";
+    }
+  }
