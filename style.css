@@ -17,7 +17,20 @@ tr:nth-child(even) td:nth-child(odd){
 img{
     width: 100%;
 }
+main{
+display: grid;
+grid-template-areas: "";
+}
 
+header{
+    grid-area: h;
+}
+article{
+    grid-area: a;
+}
 nav{
-    text-decoration: none;
+    grid-area: n;
+}
+footer{
+    grid-area: f;
 }
