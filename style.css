@@ -44,7 +44,22 @@ nav{
 
 nav ul{
     list-style-type: none;
+
+    
 }
+
+nav a{
+    text-decoration: none;
+    display: block;
+    width: 50%;
+    background-color: royalblue;
+    color: cornsilk;
+}
+
+li a:hover {
+    background-color: #555;
+    color: rgb(252, 252, 252);
+  }
 
 
 footer{
