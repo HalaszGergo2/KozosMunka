@@ -31,15 +31,18 @@ grid-template-areas:
 header{
     grid-area: h;
     border-bottom: 1px solid black;
+    text-align: center;
 }
 article{
     grid-area: a;
+    border: 1px solid black;
 }
 
 
 nav{
     grid-area: n;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 nav ul{
@@ -49,4 +52,6 @@ nav ul{
 
 footer{
     grid-area: f;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
