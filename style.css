@@ -22,15 +22,24 @@ display: grid;
 grid-template-areas: "";
 }
 
+
 header{
     grid-area: h;
 }
 article{
     grid-area: a;
 }
+
+
 nav{
     grid-area: n;
 }
+
+nav ul{
+    list-style-type: none;
+}
+
+
 footer{
     grid-area: f;
 }
